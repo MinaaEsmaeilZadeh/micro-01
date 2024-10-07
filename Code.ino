@@ -1,13 +1,15 @@
-int led = 13;
+int Led = 13;
 
 void setup() {
-  pinMode(led, OUTPUT);
+  //put your setup code here,to run once:
+  pinMode(Led, OUTPUT);
 
 }
 
 void loop() {
-  digitalWrite(led,HIGH);
+  //put your main code here,to run repeatedly:
+  digitalWrite(Led,HIGH);
   delay(3000);
-  digitalWrite(led , LOW);
+  digitalWrite(Led , LOW);
   delay(1000);
 }
